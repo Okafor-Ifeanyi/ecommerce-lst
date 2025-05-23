@@ -1,0 +1,121 @@
+header {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.scrollWrapper {
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+    background-color: #23856D;
+}
+.scrollHeader {
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ScrollHeader1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 30%;
+    justify-content: space-between;
+}
+
+.telephone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.ScrollHeader2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 70%;
+    justify-content: space-between;
+}
+
+.ScrollHeader2FollowUs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ScrollHeader2FollowUsIcons {
+    gap: 10px;
+}
+
+.ScrollHeaderSocials {
+    margin: 0 5px;
+}
+
+.Header {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.HeaderUL {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    width: 85%;
+}
+
+.HeaderUL ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    gap: 20px;
+    font-size: 18px;
+}
+
+.HeaderUL ul a{ 
+    text-decoration: none;
+    color: black;
+}
+
+.HeaderUL main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    list-style-type: none;
+    gap: 20px;
+    color: #23A6F0;
+}
+
+.HeaderUL main a{
+    color: #23A6F0;
+    align-items: center;
+    display: flex;
+    gap: 15px;
+
+}
+
+.HeaderMainIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.minusMargin {
+    margin-left: -20px
+}
