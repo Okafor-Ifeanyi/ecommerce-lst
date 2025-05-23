@@ -268,3 +268,153 @@ export const MessageIcon: React.FC<IconProps> = ({
     />
   </svg>
 );
+
+export const GrowthArrowIcon: React.FC<IconProps> = ({
+  className,
+  width = 14,
+  height = 14,
+  stroke = 'currentColor',
+  ...props
+}) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={width}
+    height={height}
+    viewBox="0 0 14 14"
+    className={className}
+    fill="none"
+    stroke={stroke}
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    strokeWidth={1}
+    {...props}
+  >
+    <path d="M9.5 3.5h4v4" />
+    <path d="M13.5 3.5L7.85 9.15a.5.5 0 0 1-.7 0l-2.3-2.3a.5.5 0 0 0-.7 0L.5 10.5" />
+  </svg>
+);
+
+export const BookIcon: React.FC<IconProps> = ({
+  className,
+  width = 32,
+  height = 32,
+  stroke = 'currentColor',
+  ...props
+}) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={width}
+    height={height}
+    viewBox="0 0 32 32"
+    className={className}
+    fill={stroke}
+    stroke="none"
+    {...props}
+  >
+    <path d="M19 10h7v2h-7zm0 5h7v2h-7zm0 5h7v2h-7zM6 10h7v2H6zm0 5h7v2H6zm0 5h7v2H6z" />
+    <path d="M28 5H4a2 2 0 0 0-2 2v18a2 2 0 0 0 2 2h24a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2M4 7h11v18H4Zm13 18V7h11v18Z" />
+  </svg>
+);
+
+export const EasyWinIcon: React.FC<IconProps> = ({
+  className,
+  width = 32,
+  height = 32,
+  stroke = 'currentColor',
+  ...props
+}) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={width}
+    height={height}
+    viewBox="0 0 73 72"
+    className={className}
+    fill={stroke}
+    stroke="none"
+    {...props}
+  >
+    <g clipPath="url(#clip0)">
+      <path
+        d="M6 24V58.587C6 58.587 19.863 58.071 36 66C52.137 58.071 66 58.587 66 58.587V24C66 24 49.638 24 36 31.413C22.362 24 6 24 6 24Z"
+        fill={stroke}
+      />
+      <path
+        d="M36 24C40.9706 24 45 19.9706 45 15C45 10.0294 40.9706 6 36 6C31.0294 6 27 10.0294 27 15C27 19.9706 31.0294 24 36 24Z"
+        fill={stroke}
+      />
+    </g>
+    <defs>
+      <clipPath id="clip0">
+        <rect width="72" height="72" fill="white" transform="translate(0.5)" />
+      </clipPath>
+    </defs>
+  </svg>
+);
+
+export const ClockIcon: React.FC<IconProps> = ({
+  className,
+  width = 32,
+  height = 32,
+  stroke = 'currentColor',
+  ...props
+}) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={width}
+    height={height}
+    viewBox="0 0 24 24"
+    className={className}
+    fill="none"
+    stroke={stroke}
+    strokeWidth="1"
+    {...props}
+  >
+    <g fill="none">
+      <circle cx="12" cy="12" r="8.5" />
+      <path strokeLinecap="round" d="M5 2.804A6 6 0 0 0 2.804 5M19 2.804A6 6 0 0 1 21.196 5M12 6.5v5.25c0 .138.112.25.25.25h4.25" />
+    </g>
+  </svg>
+);
+
+export const ChartIcon: React.FC<IconProps> = ({
+  className,
+  width = 32,
+  height = 32,
+  stroke = 'currentColor',
+  ...props
+}) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={width}
+    height={height}
+    viewBox="0 0 20 20"
+    className={className}
+    fill={stroke}
+    stroke="none"
+    {...props}
+  >
+    <path d="M3 3H1v16h18v-2H3z" />
+    <path d="M11 11L8 9l-4 4v3h14V5z" />
+  </svg>
+);
+
+export const NextIcon: React.FC<IconProps> = ({
+  className,
+  width = 32,
+  height = 32,
+  stroke = '#2196f3',
+  ...props
+}) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={width}
+    height={height}
+    viewBox="0 0 48 48"
+    className={className}
+    fill={stroke}
+    stroke="none"
+    {...props}
+  >
+    <path d="M17.1 5L14 8.1L29.9 24L14 39.9l3.1 3.1L36 24z" />
+  </svg>
+);
