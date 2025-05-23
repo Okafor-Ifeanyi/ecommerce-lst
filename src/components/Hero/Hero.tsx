@@ -7,7 +7,7 @@ export const Hero = () => {
                 <section className={styles.section1}>
                             <article className={styles.articleTag}>
                                 <div className={styles.items}><p>5 Items</p></div>
-                                <h1 className={styles.furniture}>FURNITURE</h1>
+                                <h1 className={styles.furnitureMain}>FURNITURE</h1>
                                 <h4 className={styles.readMore}><b>Read More</b></h4>
                             </article>
                 </section>
@@ -28,7 +28,7 @@ export const Hero = () => {
                             </article>
                         </div>
 
-                        <div className={styles.twinBox}>
+                        <div className={styles.twinBox2}>
                             <article className={styles.articleTag}>
                                 <div className={styles.items}><p>5 Items</p></div>
                                 <h1 className={styles.furniture}>FURNITURE</h1>
