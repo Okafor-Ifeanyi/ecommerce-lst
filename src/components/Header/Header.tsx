@@ -1,6 +1,8 @@
+import { useState } from "react";
 import { CartIcon, 
         DropdownIcon, 
         FacebookIcon, 
+        HamburgerIcon, 
         InstagramIcon, 
         LoveIcon, 
         MessageIcon, 
@@ -12,6 +14,8 @@ import styles from "./Header.module.css"
 
 
 export const Header = () => {
+    const [showMobileMenu, setShowMobileMenu] = useState(false);
+
     return (
         <header>
             <div className={styles.scrollWrapper}>
@@ -30,7 +34,7 @@ export const Header = () => {
                     </div>
                     <div className={styles.ScrollHeader2}>
                         <p></p>
-                        <cite>Follow Us  and get a chance to win 80% off</cite>
+                        <h3>Follow Us  and get a chance to win 80% off</h3>
                         <div className={styles.ScrollHeader2FollowUs}>
                             <p>Follow Us  :</p>
                             <div className={styles.ScrollHeader2FollowUsIcons}>
@@ -46,9 +50,9 @@ export const Header = () => {
             <nav className={styles.Header}>
                 <h1>Bandage</h1>
                 <div className={styles.HeaderUL}>
-                    <ul>
+                    <ul className={`${styles.NavLinks} ${showMobileMenu ? styles.ShowMenu : ''}`}>
                         <li><a href="#home">Home</a></li>
-                        <li><a href="#about">Shop <span><DropdownIcon /></span></a></li>
+                        <li><a href="#about" style={{ color: 'black' }}>Shop <span><DropdownIcon width={24} height={24}/></span></a></li>
                         <li><a href="#services">About</a></li>
                         <li><a href="#contact">Blog</a></li>
                         <li><a href="#contact">Contact</a></li>
@@ -60,7 +64,10 @@ export const Header = () => {
                         <div className={styles.HeaderMainIcons}> 
                             <SearchIcon />
                             <CartIcon /> <span className={styles.minusMargin} >1</span>
-                            <LoveIcon /> <span className={styles.minusMargin}>1</span>
+                            <LoveIcon className={styles.minusMargin} /> <span className={styles.minusMargin}>1</span>
+                            <button className={styles.Hamburger} onClick={() => setShowMobileMenu(!showMobileMenu)}>
+                                <HamburgerIcon />
+                            </button>
                         </div>
                     </main>
                 </div>

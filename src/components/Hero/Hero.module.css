@@ -8,12 +8,13 @@
     margin: 50px auto;
     display: flex;
     gap: 10px;
+    height: auto;
 }
 
 .section1 {
     width: 40%;
     height: 70vh;
-    background-color: rgb(22, 99, 99);
+    background-image: url('/images/hero1.png');
 }
 
 .section2 {
@@ -27,8 +28,8 @@
 
 .upperBox {
     width: 100%;
-    background-color: rgb(22, 99, 99);
-    
+    /* background-color: rgb(22, 99, 99); */
+    background-image: url('/images/hero2.png');
     height: 35vh;
 }
 
@@ -42,7 +43,17 @@
 
 .twinBox {
     width: 50%;
-    background-color: rgb(22, 99, 99);
+    /* background-color: rgb(22, 99, 99); */
+    background-image: url('/images/hero3.png');
+
+    height: 35vh;
+}
+
+.twinBox2 {
+    width: 50%;
+    /* background-color: rgb(22, 99, 99); */
+    background-image: url('/images/hero4.png');
+
     height: 35vh;
 }
 
@@ -60,4 +71,71 @@
     font-size: 24px;
     line-height: 10px;
     letter-spacing: 0.2px;
+}
+
+.readMore {
+    font-family: Montserrat;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.2px;
+color: #252B42;
+}
+
+.furnitureMain {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+}
+
+.furniture {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+}
+
+@media (max-width: 768px) {
+    .secondMain {
+        width: 90%;
+        flex-direction: column;
+        height: auto;
+        gap: 20px;
+    }
+
+    .section1 {
+        width: 100%;
+        height: 40vh;
+        background-image: url('/images/hero1.png');
+    }
+
+    .section2 {
+        width: 100%;
+        height: 100%;   
+        gap: 20px;
+    }
+
+    .lowerBox {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        gap: 20px;
+    }
+
+    .twinBox {
+        width: 100%;
+        /* background-color: rgb(22, 99, 99); */
+        background-image: url('/images/hero3.png');
+        height: 35vh; 
+    }
+    .twinBox2 {
+        width: 100%;
+        /* background-color: rgb(22, 99, 99); */
+        background-image: url('/images/hero4.png');
+        height: 35vh; 
+        object-fit: cover;
+    }
 }

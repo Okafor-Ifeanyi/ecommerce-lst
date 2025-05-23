@@ -64,3 +64,18 @@
     border: 1px solid #23A6F0;
     border-radius: 5px;
 }
+
+@media (max-width: 768px) {
+    h1.HeaderGray  {
+        display: none;
+        color: red;
+    }
+    .ItemWrapper {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .Item {
+        width: 100%;
+    }
+
+}

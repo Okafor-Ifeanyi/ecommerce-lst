@@ -1,0 +1,139 @@
+.AboutUs {
+    width: 100%;
+    margin: 100px 0;
+}
+
+.AboutUsWrap {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.AboutUsMain {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.AboutUsArticle {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.AboutUsHeader {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    text-align: center;
+}
+
+.AboutUsImageWrap {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; 
+    overflow: hidden;
+    border: 2px solid #777879;
+    margin: 20px 0;
+    margin-top: 40px;
+} 
+
+.AboutUsImageWrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.AboutUsP {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #737373
+}
+
+.AboutUsAuthor {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #23A6F0;
+    margin: 0;
+    margin-top: 20px;
+
+}
+
+.AboutUsRole {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 14px;
+    /* line-height: 24px; */
+    /* letter-spacing: 0.2px; */
+    text-align: center;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.AboutUsImages {
+    width: 50%;
+    /* height: 500px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    overflow: hidden;
+}
+
+.AboutUsImages img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+}
+
+.AboutUsImagesR1, 
+.AboutUsImagesR2,
+.AboutUsImagesR3 {
+    gap: 10px;
+    display: flex;
+}
+
+@media  (max-width: 768px) {
+    .AboutUsMain {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .AboutUsArticle {
+        width: 100%;
+    }
+
+    .AboutUsImages {
+        margin-top: 40px;
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .AboutUsImages img {
+        width: 100px;
+        height: 100px;
+    }
+    .AboutUs {
+        background-color: #FAFAFA;
+    }
+}

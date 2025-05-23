@@ -1,0 +1,98 @@
+.FooterSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.FooterTopWrap {
+    width: 100%;
+    background-color: #FAFAFA;
+}
+
+.FooterTop {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ScrollHeader2FollowUsIcons {
+    gap: 10px;
+}
+
+.ScrollHeaderSocials {
+    margin: 0 5px;
+}
+
+.FooterMidDetails {
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+
+}
+
+.FooterMidDetails p{
+    color: #737373;
+    
+}
+
+.FooterMidDetails h5{
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+
+}
+
+.FooterMidDetails input {
+    width: 60%;
+    padding: 15px;
+    border: 1px solid #23A6F0;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.FooterMidSubscribe {
+    width: 100%;
+    display: flex;
+}
+.FooterMidSubscribe button {
+    padding: 15px;
+    background-color: #23A6F0;
+    color: white;
+    border: transparent;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.FooterBottom {
+    width: 80%;
+    margin: 0 auto;
+    /* padding: 20px 0; */
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: #737373;
+}
+
+@media screen and (max-width: 768px) {
+    .FooterTop {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .FooterMidDetails {
+        flex-direction: column;
+        /* align-items: center; */
+    }
+    .FooterMidDetails input {
+        width: 100%;
+    }
+    .FooterBottom {
+        flex-direction: column;
+        /* align-items: center; */
+    }
+    
+}

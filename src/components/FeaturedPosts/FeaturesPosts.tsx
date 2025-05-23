@@ -7,7 +7,7 @@ export const FeeaturedPosts = () => {
             <div className={styles.featuredPostsWrapper}>
                 <article className={styles.description}>
                     <p className={styles.headerGray}>Practice Advice</p>
-                    <h1 className={styles.headerMain}>Featured Posts</h1>
+                    <h1 className={styles.headerMain}>Featured Products</h1>
                 </article>
 
                 <main className={styles.Posts}>
