@@ -88,3 +88,27 @@ color: #23856D;
     justify-content: center;
     display: flex;
 }
+
+@media screen and (max-width: 768px) {
+    .ContactMain {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        padding: 20px 0;
+    }
+    .ContactArticlePBlue {
+        margin: 0;
+    }
+    .ContactArticle {
+        width: 100%;
+        margin: 50px 0;
+    }
+    .ContactArticleMain {
+        padding: 0 14.7px ;
+    }
+    .ContactArticlePrice {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+}

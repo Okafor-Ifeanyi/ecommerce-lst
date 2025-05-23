@@ -79,3 +79,14 @@ text-align: center;
 .serviceDes {
     color: #737373;
 }
+
+@media (max-width: 768px) {
+    .productServices {
+        flex-direction: column;
+    }
+
+    .service {
+        width: 100%;
+        padding: 0;
+    }
+}

@@ -163,3 +163,21 @@ body {
     color: #737373;
     margin: 10px 0;
 }
+
+@media (max-width: 768px) {
+    .Posts {
+        flex-direction: column;
+        align-items: center;
+    }
+    .Post {
+        width: 100%;
+    }
+    .headerMain {
+        font-family: Montserrat;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 40px;
+        letter-spacing: 0.2px;
+        text-align: center;
+    }
+}
