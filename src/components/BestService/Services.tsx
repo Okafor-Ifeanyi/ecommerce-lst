@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Bestservice.module.css'
+import styles from './BestServices.module.css'
 
 interface ServicesProps {
   title: string;
