@@ -14,7 +14,7 @@ export const BestService = () => {
 
                 <main className={styles.productServices}>
                 <Services
-                    title="Easy Wins"
+                    title="Easy Wins "
                     description="Get your best looking smile now!"
                     icon={<EasyWinIcon stroke="#23A6F0" width={73} height={72} />}
                 />
