@@ -1,5 +1,5 @@
 import { AboutUs } from "../components/AboutUs/AboutUs";
-import { BestService } from "../components/BestService/BestService";
+import { BestService } from "../components/BestService/BestServices";
 import { Contact } from "../components/Contact/Contact";
 import { FeeaturedPosts } from "../components/FeaturedPosts/FeaturesPosts";
 import { Footer } from "../components/Footer/Footer";
