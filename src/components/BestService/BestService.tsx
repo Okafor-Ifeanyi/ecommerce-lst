@@ -1,5 +1,5 @@
 import { BookIcon, EasyWinIcon, GrowthArrowIcon } from "../../assets/svg/Icons"
-import styles from "./BestService.module.css"
+import styles from "./Bestservice.module.css"
 import { Services } from "./Services"
 
 export const BestService = () => {
