@@ -21,7 +21,7 @@ export const Footer = () => {
                         <p>About Us</p>
                         <p>Carrier</p>
                         <p>We are Hiring</p>
-                        <p>Blog</p>
+                        <p>Blog.</p>
                     </div>
                     <div>
                         <h5><b>Legal</b></h5>
