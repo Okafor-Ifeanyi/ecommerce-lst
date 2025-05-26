@@ -524,3 +524,47 @@ export const HamburgerIcon: React.FC<IconProps> = ({
     <path d="M0 384h1024v128H0zM0 896h2048v128H0zM1024 1408h1024v128H1024z" fill={stroke} />
   </svg>
 );
+
+export const LoaderIcon: React.FC<IconProps> = ({
+  className,
+  width = 24,
+  height = 24,
+  stroke = 'currentColor',
+  ...props
+}) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={width}
+    height={height}
+    viewBox="0 0 24 24"
+    className={className}
+    fill={stroke}
+    stroke="none"
+    {...props}
+  >
+    {[...Array(8)].map((_, i) => {
+      const angle = i * 45;
+      const begin = `${i * 0.125}s`;
+      return (
+        <circle
+          key={i}
+          cx="12"
+          cy="2"
+          r="0"
+          fill={stroke}
+          transform={`rotate(${angle} 12 12)`}
+        >
+          <animate
+            attributeName="r"
+            begin={begin}
+            dur="1s"
+            calcMode="spline"
+            keySplines="0.2 0.2 0.4 0.8;0.2 0.2 0.4 0.8;0.2 0.2 0.4 0.8"
+            values="0;2;0;0"
+            repeatCount="indefinite"
+          />
+        </circle>
+      );
+    })}
+  </svg>
+);

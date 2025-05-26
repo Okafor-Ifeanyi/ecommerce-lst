@@ -163,7 +163,8 @@ header {
 }
 
 .minusMargin {
-    margin-left: -20px
+    margin-left: -20px;
+    /* margin-right: 5px; */
 }
 .Hamburger {
     display: none;
