@@ -56,7 +56,7 @@ export const Footer = () => {
                 </div>
                 <main className={styles.FooterTopWrap}>
                     <div className={styles.FooterBottom}>
-                        <h6>Made With Love By Finland All Right Reserved </h6>
+                        <h6>Made With Love By <span>Finland All Right Reserved</span> </h6>
                     </div>
                 </main>
                 
