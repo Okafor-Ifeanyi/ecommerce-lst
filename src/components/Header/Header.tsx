@@ -64,7 +64,7 @@ export const Header = () => {
                         <div className={styles.HeaderMainIcons}> 
                             <SearchIcon />
                             <CartIcon /> <span className={styles.minusMargin} >1</span>
-                            <LoveIcon className={styles.minusMargin} /> <span className={styles.minusMargin}>1</span>
+                            <LoveIcon /> <span className={styles.minusMargin}>1</span>
                             <button className={styles.Hamburger} onClick={() => setShowMobileMenu(!showMobileMenu)}>
                                 <HamburgerIcon />
                             </button>

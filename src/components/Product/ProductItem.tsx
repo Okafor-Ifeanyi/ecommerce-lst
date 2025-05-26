@@ -19,7 +19,9 @@ type ProductItemProps = {
   }: ProductItemProps) => {
     return (
       <article className={styles.Item}>
-        <img src={imageSrc} alt={imageAlt} />
+        <div className={styles.ItemImageBox}>
+          <img src={imageSrc} alt={imageAlt} className={styles.ItemImage} />
+        </div>
         <h1><b>{title}</b></h1>
         <p>{description}</p>
         <p>
