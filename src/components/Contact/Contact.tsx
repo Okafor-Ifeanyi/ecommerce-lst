@@ -1,4 +1,3 @@
-import { PhoneIcon } from "../../assets/svg/Icons"
 import styles from "./Contact.module.css"
 
 export const Contact = () => {
